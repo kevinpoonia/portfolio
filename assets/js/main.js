@@ -24,26 +24,6 @@
         $(this).remove();
       });
     }
-    $.get('https://cors-anywhere.herokuapp.com/https://medium.com/@jindalkanika02/achieving-artificial-general-intelligence-agi-using-meta-learning-learning-to-learn-51fcaa1f46de', 
-function(data) {
-  var im = $(data).filter('meta[name="twitter:image:src"]').attr("content");
-  $("#blogImage1").attr("src",im);
-  var text = $(data).filter('meta[name=title]').attr("content");
-  $("#blogTitle1").html(text);
-  //var description = $(data).filter('meta[name=description]').attr("content");
-  //$("#blogDescription1").html(description);
-
-});
-$.get('https://cors-anywhere.herokuapp.com/https://medium.com/@jindalkanika02/hello-world-of-tensorflow-js-25650cc12f0e', 
-function(data) {
-  var im = $(data).filter('meta[name="twitter:image:src"]').attr("content");
-  $("#blogImage2").attr("src",im);
-  var text = $(data).filter('meta[name=title]').attr("content");
-  $("#blogTitle2").html(text);
-  //var description = $(data).filter('meta[name=description]').attr("content");
-  //$("#blogDescription2").html(description);
-
-});
   });
 
   // Back to top button
