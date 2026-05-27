@@ -20,4 +20,4 @@ Allow: /
 User-agent: PerplexityBot
 Allow: /
 
-Sitemap: https://vishalpoonia.com/sitemap.xml
+Sitemap: https://vishalpoonia.netlify.app/sitemap.xml
